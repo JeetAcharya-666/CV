@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>contact-me</title>
+  </head>
+  <body>
+    <h1>My contact details.</h1>
+    <p>Email id:-acharyajeet0@gmail.com </p>
+    <p>phone number:- 7004814123</p>
+      <hr size="2" noshade>
+      <form action="mailto:acharyajeet0@gmail.com" method="post" enctype="text/plain">
+        <!--enctype is same as utf="8" which is used to submit the form to server and textplain shows
+      our given value is in the form of plain text-->
+        <!--<a href="mailto:when we press the sun=bmit button it opens the default mail given next to mailto action-->
+      <label>Your Name:</label>
+      <!--label is used to specify an element of a form.-->
+      <input type="text" name="yourName" value="">
+      <!--this is the input type for the above level. how the input should be done -->
+      <br>
+      <!--break statement to make code neat and tidy-->
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="others">Others
+      <!--radio button is used to select one of many options given -->
+      <br>
+      <label>Enter your email:</label>
+      <input type="email" name="yourEmail" value="">
+      <br>
+      <label>Your Message:</label>
+      <br>
+      <textarea name="yourMessage" rows="10" cols="20"></textarea>
+      <!--textarea used to allow the user to input their msgs in a sizeable amount of free form text-->
+      <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
